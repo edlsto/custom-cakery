@@ -48,9 +48,9 @@ input[type="text"], input[type="number"], textarea {
   width: 100%;
 }
 
-input:focus {
+/* input:focus {
   outline: none!important;
-}
+} */
 
 button {
   background-color: #333333;
@@ -116,7 +116,7 @@ h4 {
   width: 50%;
   top: 0;
   left: 0;
-  background-color: #B62FFE;
+  background-color: purple;
 }
 
 .menu.active {
@@ -138,7 +138,7 @@ h4 {
 /********************************* FOOTER *********************************/
 
 .footer {
-  background-color: #B62FFE;
+  background-color: purple;
   padding: 20px 0;
   text-align: center;
   height: 80px;
@@ -211,7 +211,7 @@ h4 {
 
 .gallery-btn {
   position: absolute;
-  background-color: #ffcccc;
+  background-color: purple;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -244,7 +244,7 @@ h4 {
 }
 
 .medium-image {
-  border: dotted 20px #ffcccc;
+  border: dotted 20px purple;
   display: block;
   width: 600px;
 }
