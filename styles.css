@@ -26,9 +26,15 @@ a {
   text-decoration: none;
 }
 
-a:focus {
-  outline: none !important;
+p {
+  font-size: 1.4em;
+  line-height: 1.3
+
 }
+
+/* a:focus {
+  outline: none !important;
+} */
 
 form {
   background-color: rgba(255, 255, 255, .7);
@@ -110,7 +116,7 @@ h4 {
   width: 50%;
   top: 0;
   left: 0;
-  background-color: #ffcccc;
+  background-color: #B62FFE;
 }
 
 .menu.active {
@@ -132,11 +138,22 @@ h4 {
 /********************************* FOOTER *********************************/
 
 .footer {
-  background-color: #ffcccc;
+  background-color: #B62FFE;
   padding: 20px 0;
   text-align: center;
-  height: 50px;
+  height: 80px;
   flex-shrink: 0;
+  color: #fff;
+
+}
+
+.footer a {
+  color: #fff;
+}
+
+.fab,
+.fas {
+  color: #fff
 }
 
 /********************************* LANDING PAGE *********************************/
