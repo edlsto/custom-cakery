@@ -28,26 +28,26 @@
         <div class="menu">
           <div class="links">
             <h5>MENU</h5>
-            <a href="landing.html">&bull; Home</a>
+            <a href="landing.html" title="home">&bull; Home</a>
             <a href="order.html">&bull; Order a Cake</a>
             <a href="gallery.html">&bull; The Gallery</a>
           </div>
-          <img class="cake-review" src="../images/cake_review.png">
+          <img class="cake-review" src="../images/cake_review.png" alt="Beautiful and delicious cakes - a satisfied customer">
         </div>
         <i class="close fas fa-times"></i>
         <a href="landing.html">
-          <h2 class="logo"><img src="../images/cake_logo.png"></h2>
+          <h2 class="logo"><img src="../images/cake_logo.png" alt="The custom cakery"></h2>
         </a>
       </div>
       <form>
         <label for="name">Name: </label>
         <input required type="text" id="name">
-        <label for "address">Address:</label>
+        <label for="address">Address:</label>
         <input required type="text" id="address">
         <label for="email">Email Address:</label>
         <input required type="text" id="email">
         <label for="phone">Phone Number:</label>
-        <input required type="number">
+        <input required type="number" id="phone">
         <div>Desired Cake</div>
         <input type="radio" name="cake" id="whole"><label for="whole">Whole Cake</label>
         <input type="radio" name="cake" id="half"><label for="half">1/2 Dozen Cupcakes</label>
@@ -59,8 +59,8 @@
         <input type="radio" name="shape" id="rectangle"><label for="rectangle">Rectangle</label>
         <input type="radio" name="shape" checked id="other-shape"><label for="other-shape">Other</label>
         <div>Do You Want Writing?</div>
-        <input type="radio" name="words" checked><label>Yes</label>
-        <input type="radio" name="words"><label>No</label>
+        <input type="radio" name="words" id="yes" checked><label for="yes">Yes</label>
+        <input type="radio" name="words" id="no"><label for="no">No</label>
         <label for="writing">If you selected "writing," please indicate text here: </label>
         <input type="text" placeholder="cake text" id="writing">
         <label>Flavor(s)</label>
@@ -93,11 +93,12 @@
           <option value="50+">50+</option>
         </select>
         <div>
-          <textarea name="" id="" cols="30" rows="10">Please Provide Details if Selected "Other" Anywhere on Form</textarea>
+          <label for="other-details">Other details:</label>
+          <textarea name="" id="other-details" cols="30" rows="10">Please Provide Details if Selected "Other" Anywhere on Form</textarea>
         </div>
-        <label>Desired Pickup Date <br>(*note this is desired only and is not a confirmation, we will email you with details or
+        <label for="pickup">Desired Pickup Date <br>(*note this is desired only and is not a confirmation, we will email you with details or
           contact you if more information is required regarding your cake.</label>
-        <input required type="number">
+        <input required type="number" id="pickup">
         <div>
           <button type="submit" class="form-submit">Submit Form</button>
         </div>
