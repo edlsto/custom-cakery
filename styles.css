@@ -26,6 +26,14 @@ a {
   text-decoration: none;
 }
 
+header a {
+  color: #fff
+}
+
+h5 {
+  color: #fff
+}
+
 p {
   font-size: 1.4em;
   line-height: 1.3
